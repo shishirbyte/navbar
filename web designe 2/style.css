@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: blueviolet;
+    font-size: 30px;
+    height: 50px;
+    color: blue;
+
+    
+}
+.menu > li a{
+    margin: 20px;
+    text-decoration: none;
+    
+}
+.menu > li :hover{
+    color: aquamarine;
+    margin: top;
+}
+.hovar{
+    display: none;
+    text-align: center;
+    list-style: none;
+    background-color:brown;
+    margin: 15px ;
+   
+}
+.menu > li:hover .hovar{
+    display: block;
+    
+}
